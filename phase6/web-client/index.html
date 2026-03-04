@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GW Fase 6</title>
+    <style>
+      body{margin:20px;background:#020617;color:#e2e8f0;font-family:Arial,sans-serif}
+      .layout{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+      .card{background:#0f172a;border:1px solid #1e293b;border-radius:10px;padding:14px}
+      button,input{background:#111827;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;margin:4px 0}
+      canvas{border:1px solid #334155;background:#0b1220}
+      pre,ul{max-height:180px;overflow:auto}
+    </style>
+  </head>
+  <body>
+    <h1>GW Fase 6: Rooms + Replay export</h1>
+    <div class="layout">
+      <section class="card">
+        <canvas id="world" width="640" height="360"></canvas>
+        <p id="hud">Room: - | Score: - | NPC HP: -</p>
+        <button data-move="up">↑</button><button data-move="left">←</button><button data-move="down">↓</button><button data-move="right">→</button>
+        <button id="attack">Ataque</button>
+      </section>
+      <aside class="card">
+        <input id="url" value="ws://localhost:8120/ws" size="32" />
+        <input id="token" value="gw-phase6-demo" size="32" />
+        <input id="room" value="lobby" size="32" />
+        <button id="connect">Conectar/Auth/Join</button>
+        <button id="load-rooms">Cargar rooms</button>
+        <button id="load-replay">Cargar replay room</button>
+        <h3>Rooms</h3><pre id="rooms"></pre>
+        <h3>Replay</h3><pre id="replay"></pre>
+        <h3>Eventos</h3><ul id="events"></ul>
+      </aside>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
