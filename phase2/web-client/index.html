@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GW Web Spike - Fase 2</title>
+    <style>
+      body { font-family: Inter, Arial, sans-serif; background:#020617; color:#e2e8f0; margin:24px; }
+      .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+      .card { background:#0f172a; border:1px solid #1e293b; border-radius:12px; padding:16px; }
+      button, input { background:#111827; border:1px solid #334155; color:#e2e8f0; border-radius:8px; padding:8px; }
+      button { cursor:pointer; }
+      #status.ok { color:#22c55e; }
+      #status.warn { color:#f59e0b; }
+      canvas { image-rendering: pixelated; border:1px solid #334155; background:#0b1220; }
+      code { background:#111827; padding:2px 6px; border-radius:6px; }
+    </style>
+  </head>
+  <body>
+    <h1>GW Web Spike - Fase 2</h1>
+    <div class="grid">
+      <section class="card">
+        <h2>Render inicial (sprite web)</h2>
+        <p>Cargando sprite real: <code>Client/UI/Texture/ico/Hand.ico</code></p>
+        <canvas id="stage" width="320" height="180"></canvas>
+        <p id="render-info"></p>
+      </section>
+
+      <section class="card">
+        <h2>Gateway WebSocket</h2>
+        <p>Endpoint esperado: <code>ws://localhost:8080/ws</code></p>
+        <input id="url" size="40" value="ws://localhost:8080/ws" />
+        <button id="connect">Conectar</button>
+        <button id="ping">Ping</button>
+        <p id="status" class="warn">Sin conexión</p>
+        <ul id="log"></ul>
+      </section>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
