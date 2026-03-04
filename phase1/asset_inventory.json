@@ -1,0 +1,396 @@
+{
+  "root": "Client",
+  "total_files": 5504,
+  "extensions": [
+    {
+      "ext": ".jcs",
+      "count": 2341,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/Model/use_cacti_001_all.jcs",
+        "Client/Map/Model/use_cenotaph_002_all.jcs",
+        "Client/Map/Model/earth_property_001_all.jcs",
+        "Client/Map/Model/use_grass_008_all.jcs",
+        "Client/Map/Model/use_tabernacle_003_all.jcs"
+      ]
+    },
+    {
+      "ext": ".gwo",
+      "count": 1500,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/Surface/city_summer_grassplot3.gwo",
+        "Client/Map/Surface/city_spring_grassplot3.gwo",
+        "Client/Map/Surface/snow_winter_mud.gwo",
+        "Client/Map/Surface/TEX2.gwo",
+        "Client/Map/Surface/city_spring_grassplot.gwo"
+      ]
+    },
+    {
+      "ext": ".dat",
+      "count": 786,
+      "browser_ready": false,
+      "samples": [
+        "Client/unins000.dat",
+        "Client/Settings/Sys/Filter.dat",
+        "Client/Text/NPC.dat",
+        "Client/Text/QuestMonster.dat",
+        "Client/Text/Retail.dat"
+      ]
+    },
+    {
+      "ext": ".water",
+      "count": 370,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/TerrParnitha_2/6.water",
+        "Client/Map/TerrParnitha_2/14.water",
+        "Client/Map/TerrParnitha_2/4.water",
+        "Client/Map/TerrParnitha_2/9.water",
+        "Client/Map/TerrParnitha_2/17.water"
+      ]
+    },
+    {
+      "ext": ".ini",
+      "count": 118,
+      "browser_ready": false,
+      "samples": [
+        "Client/config.ini",
+        "Client/Map/TerrParnitha_2/TerrParnitha_2.ini",
+        "Client/Map/TerrParnitha_2/WaterSetting.ini",
+        "Client/Map/TerrOlympus_All/TerrOlympus_All.ini",
+        "Client/Map/TerrThebes_All/TerrThebes_All.ini"
+      ]
+    },
+    {
+      "ext": ".gwm",
+      "count": 117,
+      "browser_ready": false,
+      "samples": [
+        "Client/Effect/effect_fettle_001_all.gwm",
+        "Client/Effect/effect_spear_002_b.gwm",
+        "Client/Effect/effect_arrow_001_all.gwm",
+        "Client/Effect/effect_jook_001_all.gwm",
+        "Client/Effect/effect_spear_005_all.gwm"
+      ]
+    },
+    {
+      "ext": ".xml",
+      "count": 91,
+      "browser_ready": true,
+      "samples": [
+        "Client/UI/Base/template.xml",
+        "Client/UI/Base/special.xml",
+        "Client/UI/Base/base.xml",
+        "Client/UI/Base/message/message.xml",
+        "Client/UI/XML/AutoSeekWayUI.xml"
+      ]
+    },
+    {
+      "ext": ".wav",
+      "count": 55,
+      "browser_ready": true,
+      "samples": [
+        "Client/Sound/002.wav",
+        "Client/Sound/306.wav",
+        "Client/Sound/703.wav",
+        "Client/Sound/409.wav",
+        "Client/Sound/404.wav"
+      ]
+    },
+    {
+      "ext": ".hmp",
+      "count": 28,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/Nemea_1.hmp",
+        "Client/Map/Parnitha_2.hmp",
+        "Client/Map/Olympia_All.hmp",
+        "Client/Map/Elasson_All.hmp",
+        "Client/Map/Isthmus_of_Corinth_All.hmp"
+      ]
+    },
+    {
+      "ext": ".texture",
+      "count": 25,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/TerrParnitha_2/Water_Style_001.texture",
+        "Client/Map/TerrThebes_All/Water_Style_002.texture",
+        "Client/Map/TerrThebes_All/Water_Style_001.texture",
+        "Client/Map/TerrAthens_Newbie/Water_Style_001.texture",
+        "Client/Map/TerrIsthmus_of_Corinth_5/Water_Style_001.texture"
+      ]
+    },
+    {
+      "ext": ".lua",
+      "count": 20,
+      "browser_ready": false,
+      "samples": [
+        "Client/UI/Base/text.lua",
+        "Client/UI/Base/font.lua",
+        "Client/UI/Base/event.lua",
+        "Client/UI/Base/base.lua",
+        "Client/UI/Base/message/message.lua"
+      ]
+    },
+    {
+      "ext": ".ogg",
+      "count": 15,
+      "browser_ready": true,
+      "samples": [
+        "Client/BGM/Isthmus_of_Corinth_3.ogg",
+        "Client/BGM/Marathon_All.ogg",
+        "Client/BGM/Parnitha_2.ogg",
+        "Client/BGM/Nemea_2.ogg",
+        "Client/BGM/Megara_All.ogg"
+      ]
+    },
+    {
+      "ext": ".scc",
+      "count": 8,
+      "browser_ready": false,
+      "samples": [
+        "Client/Map/Monster/Guardwar/vssver2.scc",
+        "Client/UI/Base/vssver2.scc",
+        "Client/UI/Texture/vssver2.scc",
+        "Client/UI/Texture/MinMap/vssver2.scc",
+        "Client/UI/XML/vssver2.scc"
+      ]
+    },
+    {
+      "ext": ".exe",
+      "count": 4,
+      "browser_ready": false,
+      "samples": [
+        "Client/GodsWar.exe",
+        "Client/Patcher.exe",
+        "Client/Launch.exe",
+        "Client/unins000.exe"
+      ]
+    },
+    {
+      "ext": ".dll",
+      "count": 4,
+      "browser_ready": false,
+      "samples": [
+        "Client/msvcr80.dll",
+        "Client/Net.dll",
+        "Client/d3dx9_31.dll",
+        "Client/AudioSys.dll"
+      ]
+    },
+    {
+      "ext": ".ico",
+      "count": 4,
+      "browser_ready": true,
+      "samples": [
+        "Client/UI/Texture/ico/Attack.ico",
+        "Client/UI/Texture/ico/Hand.ico",
+        "Client/UI/Texture/ico/Normal.ico",
+        "Client/UI/Texture/ico/UnDo.ico"
+      ]
+    },
+    {
+      "ext": ".tga",
+      "count": 4,
+      "browser_ready": false,
+      "samples": [
+        "Client/UI/Texture/ico/²»¿É×ß.tga",
+        "Client/UI/Texture/ico/手状态.tga",
+        "Client/UI/Texture/ico/ÊÖ×´Ì¬.tga",
+        "Client/UI/Texture/ico/不可走.tga"
+      ]
+    },
+    {
+      "ext": ".ttf",
+      "count": 4,
+      "browser_ready": true,
+      "samples": [
+        "Client/Fonts/MessageFont.ttf",
+        "Client/Fonts/ChatFont.ttf",
+        "Client/Fonts/FightFont.ttf",
+        "Client/Fonts/MainFont.ttf"
+      ]
+    },
+    {
+      "ext": ".log",
+      "count": 2,
+      "browser_ready": false,
+      "samples": [
+        "Client/Log/Net 114-7-29.log",
+        "Client/Log/Net 124-11-25.log"
+      ]
+    },
+    {
+      "ext": ".txt",
+      "count": 1,
+      "browser_ready": true,
+      "samples": [
+        "Client/Patch_Log.txt"
+      ]
+    },
+    {
+      "ext": ".code",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/gpu_vs_sm.code"
+      ]
+    },
+    {
+      "ext": ".manifest",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/Microsoft.VC80.CRT.manifest"
+      ]
+    },
+    {
+      "ext": ".vn",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/patch.vn"
+      ]
+    },
+    {
+      "ext": ".luac",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/UI/Base/text.luaC"
+      ]
+    },
+    {
+      "ext": ".psd",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/UI/Texture/gamelogo.psd"
+      ]
+    },
+    {
+      "ext": ".bat",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/Settings/Sys/Filter.bat"
+      ]
+    },
+    {
+      "ext": ".ttc",
+      "count": 1,
+      "browser_ready": false,
+      "samples": [
+        "Client/Fonts/MainFont.ttc"
+      ]
+    }
+  ],
+  "top_directories": [
+    {
+      "directory": "Characters",
+      "count": 2208
+    },
+    {
+      "directory": "Map",
+      "count": 1620
+    },
+    {
+      "directory": "Text",
+      "count": 786
+    },
+    {
+      "directory": "Monster",
+      "count": 464
+    },
+    {
+      "directory": "UI",
+      "count": 193
+    },
+    {
+      "directory": "Effect",
+      "count": 117
+    },
+    {
+      "directory": "Sound",
+      "count": 55
+    },
+    {
+      "directory": "Settings",
+      "count": 25
+    },
+    {
+      "directory": "BGM",
+      "count": 15
+    },
+    {
+      "directory": "Fonts",
+      "count": 5
+    },
+    {
+      "directory": "Log",
+      "count": 2
+    },
+    {
+      "directory": "GodsWar.exe",
+      "count": 1
+    },
+    {
+      "directory": "config.ini",
+      "count": 1
+    },
+    {
+      "directory": "Patch_Log.txt",
+      "count": 1
+    },
+    {
+      "directory": "unins000.dat",
+      "count": 1
+    },
+    {
+      "directory": "msvcr80.dll",
+      "count": 1
+    },
+    {
+      "directory": "Patcher.exe",
+      "count": 1
+    },
+    {
+      "directory": "gpu_vs_sm.code",
+      "count": 1
+    },
+    {
+      "directory": "Launch.exe",
+      "count": 1
+    },
+    {
+      "directory": "Microsoft.VC80.CRT.manifest",
+      "count": 1
+    },
+    {
+      "directory": "Net.dll",
+      "count": 1
+    },
+    {
+      "directory": "d3dx9_31.dll",
+      "count": 1
+    },
+    {
+      "directory": "unins000.exe",
+      "count": 1
+    },
+    {
+      "directory": "AudioSys.dll",
+      "count": 1
+    },
+    {
+      "directory": "patch.vn",
+      "count": 1
+    }
+  ],
+  "summary": {
+    "browser_ready_files": 170,
+    "legacy_or_custom_files": 5334
+  }
+}
