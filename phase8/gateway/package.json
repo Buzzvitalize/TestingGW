@@ -1,0 +1,11 @@
+{
+  "name": "gw-phase8-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 8 gateway with tournament rounds and event export",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:integration": "node ../tests/integration.test.js"
+  }
+}

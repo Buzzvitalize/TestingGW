@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GW Fase 8</title>
+    <style>
+      body{margin:20px;background:#020617;color:#e2e8f0;font-family:Arial,sans-serif}
+      .layout{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+      .card{background:#0f172a;border:1px solid #1e293b;border-radius:10px;padding:14px}
+      button,input{background:#111827;color:#e2e8f0;border:1px solid #334155;border-radius:8px;padding:8px;margin:4px 0}
+      canvas{border:1px solid #334155;background:#0b1220}
+      pre,ul{max-height:170px;overflow:auto}
+    </style>
+  </head>
+  <body>
+    <h1>GW Fase 8: Tournament rounds + NDJSON export</h1>
+    <div class="layout">
+      <section class="card">
+        <canvas id="world" width="640" height="360"></canvas>
+        <p id="hud">Room: - | Score: - | Wins: - | Round: -</p>
+        <button id="attack">Ataque</button>
+      </section>
+      <aside class="card">
+        <input id="ws-url" value="ws://localhost:8140/ws" size="32" />
+        <input id="token" value="gw-phase8-demo" size="32" />
+        <button id="connect">Conectar + Auth</button>
+        <button id="queue">Entrar matchmaking</button>
+        <button id="simulate">Simular room actual</button>
+        <button id="events">Cargar NDJSON events</button>
+        <h3>Eventos NDJSON</h3><pre id="events-data"></pre>
+        <h3>Log</h3><ul id="log"></ul>
+      </aside>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
