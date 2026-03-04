@@ -1,0 +1,10 @@
+{
+  "name": "gw-phase3-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 3 gameplay spike gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GW Web Spike - Fase 3</title>
+    <style>
+      body { margin: 20px; background:#020617; color:#e2e8f0; font-family: Arial, sans-serif; }
+      .layout { display:grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+      .card { background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:14px; }
+      button, input, select { background:#111827; color:#e2e8f0; border:1px solid #334155; border-radius:8px; padding:8px; margin:4px 0; }
+      button { cursor:pointer; margin-right:8px; }
+      canvas { border:1px solid #334155; background: #0b1220; }
+      #status.ok { color:#22c55e; }
+      #status.warn { color:#f59e0b; }
+      ul { max-height:200px; overflow:auto; }
+    </style>
+  </head>
+  <body>
+    <h1>GW Web Spike - Fase 3 (combate + inventario + skills + NPC)</h1>
+    <div class="layout">
+      <section class="card">
+        <canvas id="world" width="640" height="360"></canvas>
+        <p id="hud">HP: - | Mana: - | NPC HP: -</p>
+        <div>
+          <button data-move="up">↑</button>
+          <button data-move="left">←</button>
+          <button data-move="down">↓</button>
+          <button data-move="right">→</button>
+          <button id="attack">Ataque básico</button>
+        </div>
+      </section>
+      <aside class="card">
+        <p>Gateway: <code>ws://localhost:8090/ws</code></p>
+        <input id="ws-url" value="ws://localhost:8090/ws" size="35" />
+        <button id="connect">Conectar</button>
+        <p id="status" class="warn">Sin conexión</p>
+
+        <h3>Skills</h3>
+        <select id="skill">
+          <option value="slash">slash</option>
+          <option value="fireball">fireball</option>
+        </select>
+        <button id="use-skill">Lanzar skill</button>
+
+        <h3>Inventario</h3>
+        <select id="item">
+          <option value="potion-small">potion-small</option>
+          <option value="ether-small">ether-small</option>
+        </select>
+        <button id="use-item">Usar item</button>
+
+        <h3>Eventos</h3>
+        <ul id="events"></ul>
+      </aside>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
