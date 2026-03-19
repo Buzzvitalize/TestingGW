@@ -1,0 +1,10 @@
+{
+  "name": "gw-phase4-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 4 hardened gameplay gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
